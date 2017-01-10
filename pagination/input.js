@@ -83,7 +83,7 @@
 
 			nOf.className = paginateOfClassName;
 			nPage.className = paginatePageClassName;
-			nInput.className = paginateInputClassName;
+			nInput.className = paginateInputClassName + ' form-control input-sm input-inline w-40';
 
 			if (oSettings.sTableId !== '') {
 				nPaging.setAttribute('id', oSettings.sTableId + '_' + paginateClassName);
