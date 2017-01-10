@@ -96,13 +96,13 @@
 			nInput.type = 'text';
 			nPage.innerHTML = 'Page ';
 
+			nPaging.appendChild(nPage);
 			nPaging.appendChild(nFirst);
 			nPaging.appendChild(nPrevious);
-			nPaging.appendChild(nPage);
 			nPaging.appendChild(nInput);
-			nPaging.appendChild(nOf);
 			nPaging.appendChild(nNext);
 			nPaging.appendChild(nLast);
+			nPaging.appendChild(nOf);
 
 			$(nFirst).click(function() {
 				var iCurrentPage = calcCurrentPage(oSettings);
